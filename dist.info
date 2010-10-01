@@ -1,0 +1,16 @@
+--- This file is part of LuaDist project
+-- status: MinGW not supported (missing "fsync" function)
+
+name ="lua_tinycdb"
+version="0.2"
+
+desc = "Provides support for creating and reading constant databases"
+author = "Michael Tokarev"
+url = "http://asbradbury.org/projects/lua-tinycdb/"
+license = "MIT"
+maintainer = "Peter Kapec"
+
+depends = {
+	"lua ~> 5.1",
+	"lunit >=0.4"
+}
