@@ -1,7 +1,7 @@
 --- This file is part of LuaDist project
 -- status: MinGW not supported (missing "fsync" function)
 
-name ="lua_tinycdb"
+name ="lua-tinycdb"
 version="0.2"
 
 desc = "Provides support for creating and reading constant databases"
