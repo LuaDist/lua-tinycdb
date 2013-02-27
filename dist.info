@@ -1,0 +1,39 @@
+type = "x86_64"
+arch = "Ubuntu"
+author = "Michael Tokarev"
+depends = {
+[[lua ~> 5.1]],
+[[lunit >=0.4]],
+}
+
+desc = "Provides support for creating and reading constant databases"
+version = "0.2"
+maintainer = "Peter Kapec"
+files = {
+Runtime = {
+[[lib/lua/cdb.so]],
+}
+,
+Test = {
+[[share/lua-tinycdb/test/test.lua]],
+}
+,
+Example = {
+[[share/lua-tinycdb/example/example.lua]],
+}
+,
+Data = {
+[[share/lua-tinycdb/LICENSE]],
+[[share/lua-tinycdb/README.mkd]],
+[[share/lua-tinycdb/cdb.txt]],
+}
+,
+Documentation = {
+[[share/lua-tinycdb/doc/DOCUMENTATION.mkd]],
+}
+,
+}
+
+url = "http://asbradbury.org/projects/lua-tinycdb/"
+name = "lua-tinycdb"
+license = "MIT"
